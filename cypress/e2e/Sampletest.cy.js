@@ -57,6 +57,8 @@ describe('get started page opens', () => {
                                     console.error(error);
                                 });
 
+                                cy.get('#Dropdown0-option').select('5')
+
                         })
                     })
                 })
